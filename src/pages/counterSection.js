@@ -11,7 +11,7 @@ const CounterSection = () => {
       let count = 0;
       const interval = setInterval(() => {
         if (count < target) {
-          count += Math.ceil(target / 100); // adjust increment for smoother animation
+          count += Math.ceil(target / 100);
           setter(count);
         } else {
           clearInterval(interval);
