@@ -10,17 +10,17 @@ function Index() {
   return (
     <Fragment>
       <>
-        {/* <div className="wrap">
+        <div className="wrap">
           <div className="container">
             <div className="row">
               <div className="col-md-6 d-flex align-items-center">
                 <p className="mb-0 phone pl-md-2">
                   <a href="#" className="mr-2">
-                    <span className="fa fa-phone mr-1" /> +00 1234 567
+                    <span className="fa fa-phone mr-1" /> +91 6235806115
                   </a>
                   <a href="#">
                     <span className="fa fa-paper-plane mr-1" />{" "}
-                    youremail@email.com
+                    info@pettrust.com
                   </a>
                 </p>
               </div>
@@ -64,7 +64,7 @@ function Index() {
               </div>
             </div>
           </div>
-        </div> */}
+        </div>
         <nav
           className="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light"
           id="ftco-navbar"
