@@ -12,7 +12,7 @@ const slides = [
   },
   {
     id: 2,
-    image: "/images/bg_2.jpg",
+    image: "/images/betterpaw3.jpg",
     heading: "Professional Grooming Services",
     description: "Our experts ensure the best care for your pet.",
     buttonText: "See Our Services",
@@ -20,7 +20,7 @@ const slides = [
   },
   {
     id: 3,
-    image: "/images/bg_3.jpg",
+    image: "/images/betterpaw2.jpg",
     heading: "Love and Care for Pets",
     description: "Your pet's health and happiness are our priority.",
     buttonText: "Join Us Today",
@@ -28,7 +28,7 @@ const slides = [
   },
   {
     id: 4,
-    image: "/images/bg_4.jpg",
+    image: "/images/betterpaw4.jpg",
     heading: "Safe and Comfortable Environment",
     description: "A stress-free grooming experience for your furry friend.",
     buttonText: "Learn More",

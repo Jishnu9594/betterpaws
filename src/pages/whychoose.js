@@ -13,48 +13,52 @@ const WhyChooseUs = () => {
           </div>
           <div className="col-md-7 pl-md-5 py-md-5">
             <div className="heading-section pt-md-5">
-              <h2 className="mb-4">Why Choose Us?</h2>
+              <h2 className="mb-4">Why Choose Better Paws?</h2>
             </div>
             <div className="row">
               <div className="col-md-6 services-2 w-100 d-flex">
                 <div className="icon d-flex align-items-center justify-content-center">
-                  <span className="flaticon-stethoscope"></span>
+                  <span className="fa fa-user-md"></span>
                 </div>
                 <div className="text pl-3">
-                  <h4>Care Advices</h4>
+                  <h4>Expert Groomers</h4>
                   <p>
-                    Far far away, behind the word mountains, far from the
-                    countries.
+                    Our team of certified and experienced groomers specializes
+                    in all breeds of pets, ensuring a safe and professional
+                    grooming experience tailored to your pet’s specific needs.
                   </p>
                 </div>
               </div>
               <div className="col-md-6 services-2 w-100 d-flex">
                 <div className="icon d-flex align-items-center justify-content-center">
-                  <span className="flaticon-customer-service"></span>
+                  <span className="fa fa-paw"></span>
                 </div>
                 <div className="text pl-3">
-                  <h4>Customer Supports</h4>
+                  <h4>Pet-Friendly Environment</h4>
                   <p>
-                    Far far away, behind the word mountains, far from the
-                    countries.
+                    Our grooming facility is designed to provide a calm and
+                    stress-free environment, with dedicated spaces equipped with
+                    the latest grooming tools and equipment.
                   </p>
                 </div>
               </div>
               <div className="col-md-6 services-2 w-100 d-flex">
                 <div className="icon d-flex align-items-center justify-content-center">
-                  <span className="flaticon-emergency-call"></span>
+                  <span className="fa fa-heartbeat"></span>
                 </div>
                 <div className="text pl-3">
-                  <h4>Emergency Services</h4>
+                  <h4>Health-Focused Grooming</h4>
                   <p>
-                    Far far away, behind the word mountains, far from the
-                    countries.
+                    Grooming is not just about appearance—it’s about the health
+                    and well-being of your pet. Our services include thorough
+                    coat cleaning, skin care, nail trimming, ear cleaning, and
+                    more, all while ensuring your pet’s comfort.
                   </p>
                 </div>
               </div>
               <div className="col-md-6 services-2 w-100 d-flex">
                 <div className="icon d-flex align-items-center justify-content-center">
-                  <span className="flaticon-veterinarian"></span>
+                  <span className="fa fa-stethoscope"></span>
                 </div>
                 <div className="text pl-3">
                   <h4>Veterinary Help</h4>

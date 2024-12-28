@@ -85,40 +85,21 @@ const FaqSection = () => {
 
 const faqData = [
   {
-    question: "How to train your pet dog?",
+    question: "How long does a grooming session take?",
     answer: [
-      "Far far away, behind the word mountains",
-      "Consonantia, there live the blind texts",
-      "When she reached the first hills of the Italic Mountains",
-      "Bookmarksgrove, the headline of Alphabet Village",
-      "Separated they live in Bookmarksgrove right",
+      "A typical grooming session can take anywhere from 1 to 2 hours, depending on the type of grooming your pet requires.",
     ],
   },
   {
-    question: "How to manage your pets?",
+    question: "Do I need to make a reservation?",
     answer: [
-      "Far far away, behind the word mountains",
-      "Consonantia, there live the blind texts",
-      "When she reached the first hills of the Italic Mountains",
-      "Bookmarksgrove, the headline of Alphabet Village",
-      "Separated they live in Bookmarksgrove right",
+      "Yes, we recommend scheduling an appointment in advance to ensure your pet receives timely grooming.",
     ],
   },
   {
-    question: "What is the best grooming for your pets?",
+    question: "What if my pet has special needs?",
     answer: [
-      "Far far away, behind the word mountains",
-      "Consonantia, there live the blind texts",
-      "When she reached the first hills of the Italic Mountains",
-      "Bookmarksgrove, the headline of Alphabet Village",
-      "Separated they live in Bookmarksgrove right",
-    ],
-  },
-  {
-    question: "What are those requirements for sitting pets?",
-    answer: [
-      "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
-      "Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.",
+      "Our groomers are experienced in handling pets with special needs and will provide personalized care to ensure their comfort and safety.",
     ],
   },
 ];
