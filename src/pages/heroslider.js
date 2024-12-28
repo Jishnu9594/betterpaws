@@ -8,7 +8,7 @@ const slides = [
     heading: "Highest Quality Care For Pets You'll Love",
     description: "Pamper your pet with our premium grooming services.",
     buttonText: "Learn More",
-    buttonLink: "#grooming-services", // Link to Grooming Services
+    buttonLink: "#grooming-services",
   },
   {
     id: 2,
