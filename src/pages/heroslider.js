@@ -54,7 +54,7 @@ const HeroSlider = () => {
   useEffect(() => {
     timeoutRef.current = setInterval(changeSlide, 10000); // Change slide every 10 seconds
     return () => {
-      clearInterval(timeoutRef.current); // Cleanup on unmount
+      clearInterval(timeoutRef.current);
     };
   }, []);
 

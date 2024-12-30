@@ -13,6 +13,7 @@ const FreeConsultationForm = () => {
   });
 
   const [responseMessage, setResponseMessage] = useState("");
+  const [loading, setLoading] = useState(false);
 
   const handleChange = (e) => {
     setFormData({
@@ -21,16 +22,45 @@ const FreeConsultationForm = () => {
     });
   };
 
+  const validateForm = () => {
+    return (
+      formData.name &&
+      formData.phone &&
+      formData.service &&
+      formData.email &&
+      formData.date &&
+      formData.time
+    );
+  };
+
   const handleSubmit = async (e) => {
     e.preventDefault();
+    if (!validateForm()) {
+      setResponseMessage("Please fill out all required fields.");
+      return;
+    }
+
+    setLoading(true);
+    setResponseMessage("");
     try {
       await axios.post(
         "https://pettrust-backend-1wzw.onrender.com/pet/contact-form/",
         formData
       );
       setResponseMessage("Form submitted successfully!");
+      setFormData({
+        name: "",
+        phone: "",
+        service: "",
+        email: "",
+        date: "",
+        time: "",
+        message: "",
+      });
     } catch (error) {
       setResponseMessage("There was an error submitting the form.");
+    } finally {
+      setLoading(false);
     }
   };
 
@@ -38,13 +68,12 @@ const FreeConsultationForm = () => {
     <div className="form-container">
       <div className="image-section">
         <img
-          src="images/P1210227.JPG"
+          src="images/about-3.jpg"
           alt="Consultation"
           className="image-section-img"
         />
       </div>
       <div className="form-section">
-        {/* New content section */}
         <div className="intro-text">
           <h3>Book Your Appointment Today!</h3>
           <p>
@@ -64,7 +93,7 @@ const FreeConsultationForm = () => {
               value={formData.service}
               onChange={handleChange}
             >
-              <option value="">Select services</option>
+              <option value="">Select a Service</option>
               <option value="bath-blow-dry">Bath & Blow Dry</option>
               <option value="haircuts-styling">Haircuts & Styling</option>
               <option value="nail-care">Nail Care</option>
@@ -124,14 +153,14 @@ const FreeConsultationForm = () => {
               name="message"
               rows="5"
               className="form-textarea"
-              placeholder="Message"
+              placeholder="Message (Optional)"
               value={formData.message}
               onChange={handleChange}
             ></textarea>
           </div>
           <div className="form-row">
-            <button type="submit" className="form-button">
-              Send Message
+            <button type="submit" className="form-button" disabled={loading}>
+              {loading ? "Submitting..." : "Send Message"}
             </button>
           </div>
         </form>
