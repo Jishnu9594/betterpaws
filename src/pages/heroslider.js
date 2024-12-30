@@ -20,7 +20,7 @@ const slides = [
   },
   {
     id: 3,
-    image: "/images/betterpaw2.jpg",
+    image: "/images/washing-pet-dog-home.jpg",
     heading: "Love and Care for Pets",
     description: "Your pet's health and happiness are our priority.",
     buttonText: "Join Us Today",

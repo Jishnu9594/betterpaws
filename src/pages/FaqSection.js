@@ -8,10 +8,10 @@ const FaqSection = () => {
           <div className="col-lg-6 order-md-last">
             <div
               className="img img-video d-flex align-self-stretch align-items-center justify-content-center justify-content-md-center mb-4 mb-sm-0"
-              style={{ backgroundImage: "url(images/about.jpg)" }}
+              style={{ backgroundImage: "url(images/image_1.jpg)" }}
             >
               <a
-                href="https://vimeo.com/45830194"
+                href="https://youtube.com/shorts/6AHhrg0oKwg?si=oehsM1IKIMSqrBtG"
                 className="icon-video popup-vimeo d-flex justify-content-center align-items-center"
               >
                 <span className="fa fa-play"></span>
@@ -20,11 +20,11 @@ const FaqSection = () => {
             <div className="d-flex mt-3">
               <div
                 className="img img-2 mr-md-2"
-                style={{ backgroundImage: "url(images/about-2.jpg)" }}
+                style={{ backgroundImage: "url(images/grooming1.jpg)" }}
               ></div>
               <div
                 className="img img-2 ml-md-2"
-                style={{ backgroundImage: "url(images/about-3.jpg)" }}
+                style={{ backgroundImage: "url(images/image_6.jpg)" }}
               ></div>
             </div>
           </div>
