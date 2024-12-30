@@ -13286,3 +13286,254 @@ textarea.form-control {
     max-height: 300px;
   }
 }
+/* Container for form and image */
+.form-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem;
+  background: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  flex-wrap: wrap;
+}
+
+/* Image section styling */
+.image-section {
+  flex: 1;
+  margin-right: 2rem;
+  max-width: 45%;
+}
+
+.image-section-img {
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Form section styling */
+.form-section {
+  flex: 1;
+  padding: 2rem;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+  max-width: 45%;
+}
+
+/* Form title */
+.form-title {
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+/* General form styles */
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-row {
+  display: flex;
+  gap: 1.5rem;
+  margin-bottom: 1.5rem;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.form-input,
+.form-textarea,
+.form-button {
+  width: 100%;
+  padding: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  font-size: 1rem;
+  color: #333;
+  background-color: #f9f9f9;
+  transition: all 0.3s ease;
+}
+
+/* Focus states for inputs */
+.form-input:focus,
+.form-textarea:focus {
+  border-color: #00bd56; /* Color for focus effect */
+  outline: none;
+  background-color: #f1f5fb;
+}
+
+/* Textarea specific styles */
+.form-textarea {
+  resize: none;
+}
+
+/* Button styles */
+.form-button {
+  background: #00bd56;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  font-weight: 500;
+  padding: 1.2rem;
+  border-radius: 6px;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.form-button:hover {
+  background: #00a64e;
+  transform: translateY(-2px);
+}
+
+.form-button:active {
+  transform: translateY(2px);
+}
+
+/* Response message styling */
+.form-response {
+  margin-top: 1rem;
+  color: #28a745;
+  font-weight: 600;
+  text-align: center;
+}
+
+/* Media Queries for responsiveness */
+
+/* Tablets and smaller screens */
+@media (max-width: 768px) {
+  .form-container {
+    flex-direction: column;
+    padding: 1rem;
+  }
+
+  .image-section {
+    max-width: 100%;
+    margin-right: 0;
+    margin-bottom: 1.5rem;
+  }
+
+  .form-section {
+    max-width: 100%;
+  }
+
+  .form-title {
+    font-size: 1.5rem;
+  }
+
+  .form-row {
+    flex-direction: column;
+  }
+}
+
+/* Mobile phones */
+@media (max-width: 480px) {
+  .form-title {
+    font-size: 1.3rem;
+  }
+
+  .form-row {
+    gap: 1rem;
+  }
+
+  .form-input,
+  .form-textarea,
+  .form-button {
+    font-size: 0.9rem;
+  }
+
+  .form-button {
+    padding: 1rem;
+  }
+}
+.testimonial-area {
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  padding: 5rem 0;
+  color: #fff;
+}
+
+.testimonial-area .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.3);
+  z-index: 1;
+}
+
+.testimonial-heading {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #fff;
+  margin-bottom: 2rem;
+}
+
+.single-testimonial {
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+.single-testimonial:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 30px rgba(0, 0, 0, 0.2);
+}
+
+.testimonial-founder {
+  text-align: center;
+}
+
+.founder-img {
+  display: flex;
+  flex-direction: column; /* Align elements vertically */
+  justify-content: center; /* Center the content */
+  align-items: center; /* Align items to the center */
+  margin-bottom: 20px;
+}
+
+.founder-img img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%; /* Circular image */
+  object-fit: cover;
+  margin-bottom: 10px; /* Reduced space between the image and stars */
+}
+
+.star-rating {
+  margin-top: 5px;
+}
+
+.star-rating .filled-star {
+  color: #ffc107;
+}
+
+.star-rating .empty-star {
+  color: #e4e5e9;
+}
+
+.local-guide-text {
+  font-size: 14px;
+  font-weight: bold;
+  color: #007bff;
+  margin-top: 5px;
+  text-transform: uppercase;
+}
+
+.testimonial-top-cap {
+  font-style: italic;
+  font-size: 1rem;
+  color: #333;
+}
+
+@media (max-width: 768px) {
+  .testimonial-heading {
+    font-size: 2rem;
+  }
+}

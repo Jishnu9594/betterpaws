@@ -7,6 +7,9 @@ import FaqSection from "./FaqSection";
 import ContactInfo from "./ContactInfo";
 import PremiumGroomingService from "./PremiumGroomingService";
 import Navbar from "./Navbar ";
+import FreeConsultationForm from "./FreeConsultationForm";
+import TestimonialSection from "./TestimonialSection";
+import Footer from "./footer";
 
 function Index() {
   return (
@@ -24,6 +27,9 @@ function Index() {
 
         <CounterSection />
         <FaqSection />
+        <FreeConsultationForm />
+        <TestimonialSection />
+        <Footer />
       </>
     </Fragment>
   );
