@@ -1,10 +1,9 @@
 import React from "react";
-import { Link } from "react-router-dom"; // Import Link from react-router-dom
 
 const Navbar = () => {
   return (
     <nav
-      className="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light sticky-top" // Add sticky-top class
+      className="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light sticky-top"
       id="ftco-navbar"
     >
       <div className="container">

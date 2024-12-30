@@ -2,7 +2,7 @@ import React from "react";
 
 const WhyChooseUs = () => {
   return (
-    <section className="ftco-section ftco-no-pt ftco-no-pb">
+    <section className="ftco-section ftco-no-pt ftco-no-pb" id="facts">
       <div className="container">
         <div className="row d-flex no-gutters">
           <div className="col-md-5 d-flex">

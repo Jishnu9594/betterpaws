@@ -24,7 +24,10 @@ const FreeConsultationForm = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      await axios.post("https://your-backend-api.com/endpoint", formData);
+      await axios.post(
+        "https://pettrust-backend-1wzw.onrender.com/pet/contact-form/",
+        formData
+      );
       setResponseMessage("Form submitted successfully!");
     } catch (error) {
       setResponseMessage("There was an error submitting the form.");
@@ -43,7 +46,7 @@ const FreeConsultationForm = () => {
       <div className="form-section">
         {/* New content section */}
         <div className="intro-text">
-          <h3>Welcome to Better Paws</h3>
+          <h3>Book Your Appointment Today!</h3>
           <p>
             At Better Paws, we treat your pets like family. Our grooming
             services are designed to ensure your pet not only looks great but

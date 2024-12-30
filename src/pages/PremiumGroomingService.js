@@ -2,7 +2,7 @@ import React from "react";
 
 const PremiumGroomingService = () => {
   return (
-    <section className="premium-grooming-section">
+    <section id="about" className="premium-grooming-section">
       <div className="container">
         <div className="row align-items-center">
           <div className="col-md-6">
@@ -24,7 +24,6 @@ const PremiumGroomingService = () => {
 
           <div className="col-md-6">
             <div className="grooming-image-container">
-              {" "}
               <br></br>
               <br></br>
               <img

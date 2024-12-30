@@ -2,7 +2,7 @@ import React from "react";
 
 const FaqSection = () => {
   return (
-    <section className="ftco-section bg-light ftco-faqs">
+    <section id="faq" className="ftco-section bg-light ftco-faqs">
       <div className="container">
         <div className="row">
           <div className="col-lg-6 order-md-last">

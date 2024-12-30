@@ -19,10 +19,10 @@ const CounterSection = () => {
       }, 20);
     };
 
-    animateCount(50, setCustomerCount);
-    animateCount(8500, setProfessionalCount);
+    animateCount(10000, setCustomerCount);
+    animateCount(60, setProfessionalCount);
     animateCount(20, setProductCount);
-    animateCount(50, setPetsHostedCount);
+    animateCount(10000, setPetsHostedCount);
   }, []);
 
   return (

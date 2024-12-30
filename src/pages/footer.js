@@ -2,7 +2,7 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <footer className="footer">
+    <footer className="footer" id="contact">
       <div className="container">
         <div className="row">
           <div className="col-md-6 col-lg-3 mb-4 mb-md-0">
@@ -52,32 +52,32 @@ const Footer = () => {
             <h2 className="footer-heading">Quick Links</h2>
             <ul className="list-unstyled">
               <li>
-                <a href="#" className="py-2 d-block">
+                <a href="#home" className="py-2 d-block">
                   Home
                 </a>
               </li>
               <li>
-                <a href="#" className="py-2 d-block">
+                <a href="#about" className="py-2 d-block">
                   About
                 </a>
               </li>
               <li>
-                <a href="#" className="py-2 d-block">
+                <a href="#services" className="py-2 d-block">
                   Services
                 </a>
               </li>
               <li>
-                <a href="#" className="py-2 d-block">
+                <a href="#works" className="py-2 d-block">
                   Works
                 </a>
               </li>
               <li>
-                <a href="#" className="py-2 d-block">
+                <a href="#blog" className="py-2 d-block">
                   Blog
                 </a>
               </li>
               <li>
-                <a href="#" className="py-2 d-block">
+                <a href="#contact" className="py-2 d-block">
                   Contact
                 </a>
               </li>
@@ -115,7 +115,7 @@ const Footer = () => {
         <div className="row mt-5">
           <div className="col-md-12 text-center">
             <p className="copyright">
-              Copyright &copy; {new Date().getFullYear()}Pet Trust All rights
+              Copyright &copy; {new Date().getFullYear()} Pet Trust All rights
               reserved | This website is made with by
               <i className="fa fa-heart" aria-hidden="true"></i> by{" "}
               <a

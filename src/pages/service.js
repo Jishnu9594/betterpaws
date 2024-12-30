@@ -2,7 +2,10 @@ import React from "react";
 
 const ServicesSection = () => {
   return (
-    <section className="services-section bg-light no-padding intro">
+    <section
+      id="services"
+      className="services-section bg-light no-padding intro"
+    >
       <div className="container">
         <div className="row">
           <div className="col-12 text-center">
