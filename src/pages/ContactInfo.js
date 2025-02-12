@@ -52,7 +52,7 @@ const ContactInfo = () => {
                   className="d-flex align-items-center justify-content-center"
                 >
                   <i className="fab fa-dribbble" style={{ color: "white" }}></i>
-                  <span className="sr-only">Dribbble</span>
+                  <span className="sr-only">INNVAOTE_X LABS</span>
                 </a>
               </p>
             </div>

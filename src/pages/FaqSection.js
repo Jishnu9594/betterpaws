@@ -8,10 +8,12 @@ const FaqSection = () => {
           <div className="col-lg-6 order-md-last">
             <div
               className="img img-video d-flex align-self-stretch align-items-center justify-content-center justify-content-md-center mb-4 mb-sm-0"
-              style={{ backgroundImage: "url(images/image_1.jpg)" }}
+              style={{
+                backgroundImage: "url(images/washing-pet-dog-home.jpg)",
+              }}
             >
               <a
-                href="https://youtube.com/shorts/6AHhrg0oKwg?si=oehsM1IKIMSqrBtG"
+                href="https://youtu.be/pa2_dGVEAnk?si=PulUzGTVwwu27qVA"
                 className="icon-video popup-vimeo d-flex justify-content-center align-items-center"
               >
                 <span className="fa fa-play"></span>
